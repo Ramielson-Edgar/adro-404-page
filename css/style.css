@@ -7,24 +7,24 @@
     color: #fff;
     height: 100vh;
 
-    background-image: url('../img/404.png');
+    background-image: url('../img/404.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
 
-h1,
-p {
+.main-error-page h1,
+.main-error-page p {
     margin: 0;
 }
 
 
-.section-padding {
+.main-error-page .section-padding {
     padding: 50px 0;
 }
 
 
-.not-found-page-btn {
+.main-error-page .not-found-page-btn {
     display: inline-block;
     text-transform: capitalize;
     text-decoration: none;
@@ -37,8 +37,8 @@ p {
     transition: all .2s ease-in;
 }
 
-.not-found-page-btn:focus,
-.not-found-page-btn:hover {
+.main-error-page .not-found-page-btn:focus,
+.main-error-page .not-found-page-btn:hover {
     transform: translateY(-5px);
     background-color: rgb(243, 92, 81);
     text-decoration: none;
@@ -47,19 +47,19 @@ p {
 
 
 
-.not-found__title {
+.main-error-page .not-found__title {
     font-size: clamp(1.50rem, calc(-0.79rem + 11.46vw), 7.38rem);
     line-height: 138.28px;
     margin-bottom: 26px;
 }
 
-.not-found__sub-descriptions {
+.main-error-page .not-found__sub-descriptions {
     font-size: clamp(1.13rem, calc(0.34rem + 3.90vw), 3.13rem);
     line-height: 59.77px;
     margin-bottom: 18px;
 }
 
-.not-found__descriptions {
+.main-error-page .not-found__descriptions {
     font-size: 1.625rem;
     line-height: 30.47px;
     margin-bottom: 40px;
@@ -69,12 +69,12 @@ p {
 
 
 @media (max-width:1198px) {
-    .not-found__sub-descriptions {
+    .main-error-page .not-found__sub-descriptions {
         font-size: clamp(1.50rem, calc(1.14rem + 1.82vw), 2.50rem);
         margin-bottom: 10px;
     }
 
-    .not-found__descriptions {
+    .main-error-page .not-found__descriptions {
         font-size: clamp(1.13rem, calc(0.94rem + 0.91vw), 1.63rem);
         line-height: 1.5;
     }
@@ -83,16 +83,16 @@ p {
 
 @media (max-width:991.98px) {
 
-    .section-padding {
+    .main-error-page .section-padding {
         padding: 40px 0;
     }
 
-    .not-found__title {
+    .main-error-page .not-found__title {
         margin-bottom: 0;
 
     }
 
-    .not-found__sub-descriptions {
+    .main-error-page .not-found__sub-descriptions {
         margin-bottom: 0;
     }
 
@@ -101,21 +101,21 @@ p {
 
 @media (max-width:767.98px) {
 
-    .section-padding {
+    .main-error-page .section-padding {
         padding: 40px 0;
     }
 
-    .not-found__title {
+    .main-error-page .not-found__title {
         margin-bottom: 0;
         line-height: 86px;
 
     }
 
-    .not-found__sub-descriptions {
+    .main-error-page .not-found__sub-descriptions {
         margin-bottom: 0;
     }
 
-    .not-found__descriptions {
+    .main-error-page .not-found__descriptions {
         margin-bottom: 30px;
     }
 
@@ -123,28 +123,25 @@ p {
 
 
 @media (max-width:575.98px) {
-    .not-found__header {
+    .main-error-page  .not-found__header {
         text-align: center;
     }
 
-    .not-found__title {
+    .main-error-page .not-found__title {
         font-size: 3rem;
         line-height: 86px;
         margin-bottom: 0;
     }
 
-    .not-found__sub-descriptions {
+    .main-error-page  .not-found__sub-descriptions {
         font-size: 1.688rem;
     }
 
-    .not-found__descriptions {
+    .main-error-page  .not-found__descriptions {
         font-size: 1.25rem;
     }
-}
 
-@media (max-width: 320px) {
     .main-error-page {
-        background-size: cover;
+        background-image: url('/img/404-375.jpg');
     }
-    
 }
