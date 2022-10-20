@@ -142,6 +142,6 @@
     }
 
     .main-error-page {
-        background-image: url('/img/404-375.jpg');
+        background-image: url('../img/404-375.jpg');
     }
 }
